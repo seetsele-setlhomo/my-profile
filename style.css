@@ -9,6 +9,34 @@ body {
 	font-family: "Courier", monospace;
 	font-size: 20px;
 }
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.sidebar ul {
+  list-style: none;
+	padding-left: 5px;
+}
+.sidebar li {
+	padding: 20px 0px;
+	font-size: 22px;
+	font-weight: light;
+}
+.sidebar a {
+	color: white;
+	background-color: grey;
+	padding: 4px;
+	border-radius: 5px;
+}
+.sidebar a:hover {
+	font-weight: bolder;
+}
+.page-content {
+  margin-left: 200px;
+}
 h1 {
 	font-weight: bold;
 }
@@ -45,7 +73,7 @@ a:hover {
 #intro {
 	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
 }
-.list-inline {  
+.list-inline {
 	list-style: none;
 	padding-left: 0px;
 }
